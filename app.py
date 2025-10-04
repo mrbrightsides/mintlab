@@ -14,34 +14,18 @@ with st.sidebar:
     )
     st.sidebar.markdown("📘 **About**")
     st.sidebar.markdown("""
-    **MintLab** adalah platform pembelajaran interaktif yang dirancang untuk mahasiswa mata kuliah Bisnis Kapal Pesiar. Platform ini menggabungkan jalur pembelajaran terstruktur, studi kasus nyata, kuis interaktif, dan pelacakan progres untuk menciptakan pengalaman belajar yang seru dan praktis.
+    **MintLab** adalah platform browser-based IDE yang memungkinkan siapa saja untuk membuat dan deploy token crypto (ERC20) atau koleksi NFT (ERC721) langsung dari browser, tanpa perlu coding rumit.
 
-    Dengan Rantai-Cruise, mahasiswa bisa:
-    
-    - Memahami industri kapal pesiar melalui contoh nyata.
-    
-    - Melacak perjalanan belajar dan pencapaian secara mudah.
-    
-    - Membuat catatan dan menandai materi penting.
-    
-    - Menjelajahi peluang karier di sektor cruise.
-    
-    Dibuat dengan fokus pada kesederhanaan dan interaktivitas, Rantai-Cruise mengubah konsep bisnis yang kompleks menjadi pembelajaran yang menyenangkan dan mudah dipahami
-    
     ---
     #### 🔮 Vision Statement
     
-    Visi kami adalah memberdayakan generasi baru profesional bisnis kapal pesiar melalui platform belajar yang interaktif, praktis, dan menyenangkan.
-
     Kami bertujuan untuk:
     
-    - Menjembatani teori di kelas dengan praktik nyata di industri.
+    - Mendemokratisasi akses ke teknologi blockchain dengan menyediakan tools yang mudah digunakan untuk membuat smart contract tanpa perlu pengalaman programming yang mendalam.
     
-    - Menginspirasi mahasiswa untuk mengeksplorasi karier di sektor kapal pesiar dan maritim.
+    - Pendidikan & pembelajaran - memberikan platform yang aman (testnet) untuk belajar tentang token, NFT, dan smart contract dengan cara hands-on.
     
-    - Mendorong pembelajaran seumur hidup dengan alat yang intuitif, mudah diakses, dan menyenangkan.
-    
-    Rantai-Cruise bukan sekadar alat belajar—ini adalah gerbang menuju dunia peluang bisnis maritim.
+    - Prototyping cepat untuk developer yang ingin membuat proof-of-concept atau testing ide token/NFT sebelum launch ke mainnet.
    
     ---
     ### 🧩 Apps Showcase
@@ -111,7 +95,7 @@ def embed_iframe(src, hide_top_px=100, hide_bottom_px=0, height=800):
     </div>
     """, height=height + hide_top_px + hide_bottom_px)
 
-iframe_url = "https://cruise.elpeef.com"
+iframe_url = "https://mintlab.elpeef.com"
 
 # Panggil fungsi
 embed_iframe(iframe_url, hide_top_px=0, hide_bottom_px = -100, height=800)
