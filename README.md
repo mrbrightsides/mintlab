@@ -1,22 +1,23 @@
 # 💻 MintLab
 
+MintLab adalah platform browser-based IDE yang memungkinkan siapa saja untuk membuat dan deploy token crypto (ERC20) atau koleksi NFT (ERC721) langsung dari browser, tanpa perlu coding rumit.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16763535.svg)](https://doi.org/10.5281/zenodo.16763535)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://stc-gasvision.streamlit.app/)
 ![STC Module – GasVision](https://img.shields.io/badge/STC%20Module-GasVision-crimson)
 ![status: stable](https://img.shields.io/badge/status-stable-brightgreen)
 [![Keep Alive](https://github.com/mrbrightsides/stc-gasvision/actions/workflows/ping.yml/badge.svg)](https://github.com/mrbrightsides/stc-gasvision/actions/workflows/ping.yml)
 
-Pantau biaya gas transaksi blockchain testnet secara **real-time** dan transparan.  
-Bagian dari ekosistem **SmartTourismChain (STC)**.
-
 ---
 
 ## ✨ Fitur
 
-- 🔎 Tracking gas usage dari berbagai testnet (Sepolia, Goerli, Mumbai, Arbitrum)
-- 💱 Konversi biaya ke ETH dan Rupiah
-- 📥 Export transaksi ke CSV untuk analisis lanjutan
-- 🖥️ UI ramah pengguna (dibangun dengan Streamlit)
+- 🔎 Interface yang mudah digunakan dengan editor kode profesional seperti VSCode
+- 💱 Langsung deploy ke blockchain testnet dalam hitungan detik
+- 📥 Menggunakan template standar OpenZeppelin yang sudah teruji keamanannya
+- 🖥️ Support berbagai blockchain: Ethereum, Polygon, BSC, dan Arbitrum
+- 👝 Terintegrasi langsung dengan dompet crypto favorit Anda
+- 🤖 Bantuan AI untuk analisis kode dan deteksi keamanan kontrak
 
 ---
 
