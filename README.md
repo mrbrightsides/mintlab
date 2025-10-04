@@ -2,20 +2,18 @@
 
 MintLab adalah platform browser-based IDE yang memungkinkan siapa saja untuk membuat dan deploy token crypto (ERC20) atau koleksi NFT (ERC721) langsung dari browser, tanpa perlu coding rumit.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16763535.svg)](https://doi.org/10.5281/zenodo.16763535)
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://stc-gasvision.streamlit.app/)
-![STC Module – GasVision](https://img.shields.io/badge/STC%20Module-GasVision-crimson)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mintlab.streamlit.app/)
+![RANTAI Lab – MintLab](https://img.shields.io/badge/RANTAI%20Lab-MintLab-orangered)
 ![status: stable](https://img.shields.io/badge/status-stable-brightgreen)
-[![Keep Alive](https://github.com/mrbrightsides/stc-gasvision/actions/workflows/ping.yml/badge.svg)](https://github.com/mrbrightsides/stc-gasvision/actions/workflows/ping.yml)
 
 ---
 
 ## ✨ Fitur
 
 - 🔎 Interface yang mudah digunakan dengan editor kode profesional seperti VSCode
-- 💱 Langsung deploy ke blockchain testnet dalam hitungan detik
-- 📥 Menggunakan template standar OpenZeppelin yang sudah teruji keamanannya
-- 🖥️ Support berbagai blockchain: Ethereum, Polygon, BSC, dan Arbitrum
+- ⚡ Langsung deploy ke blockchain testnet dalam hitungan detik
+- 🛡 Menggunakan template standar OpenZeppelin yang sudah teruji keamanannya
+- 🌐 Support berbagai blockchain: Ethereum, Polygon, BSC, dan Arbitrum
 - 👝 Terintegrasi langsung dengan dompet crypto favorit Anda
 - 🤖 Bantuan AI untuk analisis kode dan deteksi keamanan kontrak
 
@@ -23,12 +21,9 @@ MintLab adalah platform browser-based IDE yang memungkinkan siapa saja untuk mem
 
 ## 📊 Demo UI
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/89cbcb10-5a52-49a7-8db0-819e2adeb7ea" /><p>
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d09183d4-7bc5-4210-a993-8ed9bcb4d9eb" /><br>
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/0889ba5f-2686-406f-a5ae-3add60550b18" /><p>
-
-
-> Tampilan dashboard: pilih jaringan testnet, masukkan Tx Hash, dapatkan estimasi biaya gas realtime.
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/dca265f3-0921-45d3-9273-f5fc289a273c" />
 
 ---
 
@@ -133,22 +128,12 @@ sequenceDiagram
 
 ## 📦 Instalasi Lokal
 ```bash
-git clone https://github.com/mrbrightsides/stc-gasvision.git
-cd stc-gasvision
+git clone https://github.com/mrbrightsides/mintlab.git
+cd mintlab
 pip install -r requirements.txt
-streamlit run streamlit_app.py
+streamlit run app.py
 ```
-
----
-
-## 🚀 Integrasi dengan STC
-Hasil CSV dari GasVision dapat langsung di-upload ke STC Analytics untuk eksplorasi lebih lanjut.
-Cocok untuk:
-- Analisis biaya transaksi lintas chain
-- Benchmark performa smart contract
-- Dokumentasi riset blockchain pariwisata
-
 ---
 
 ## 📜 Lisensi
-MIT License © ELPEEF Dev Team
+MIT License © ELPEEF
